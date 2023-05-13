@@ -1,0 +1,44 @@
+.blog{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+p{
+    margin: 0;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.author-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.cover_img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.author-date{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.read-btn{
+    color: #6047ec;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: #FFFFFF;
+    border-bottom: 1px solid #6047ec;
+    margin-bottom: 38px;
+}
+.blog-hr{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    margin-bottom: 30px;
+}

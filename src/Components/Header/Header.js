@@ -12,7 +12,7 @@ const Header = () => {
                     <img className='dp' src="girl.jpg" alt="" />
                 </div>
             </div>
-            <hr />
+            <hr className='header-hr' />
         </div>
     );
 };

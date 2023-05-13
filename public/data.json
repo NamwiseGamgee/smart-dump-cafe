@@ -1,0 +1,50 @@
+[
+    {
+      "id": "645f6c4a049de836c57a9ae8",
+      "author_name": "Aurora Massey",
+      "readTime": 7,
+      "author_image": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cover_image": "https://images.pexels.com/photos/5240597/pexels-photo-5240597.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "title": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+      "id": "645f6c4af8d48d4a3cb9bc4b",
+      "author_name": "Singleton Hodges",
+      "readTime": 10,
+      "author_image": "https://images.pexels.com/photos/227288/pexels-photo-227288.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "cover_image": "https://images.pexels.com/photos/3847545/pexels-photo-3847545.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": "645f6c4a032e8dbe8bec44b4",
+      "author_name": "Collier Puckett",
+      "readTime": 8,
+      "author_image": "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cover_image": "https://images.pexels.com/photos/2842457/pexels-photo-2842457.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "title": "If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id": "645f6c4ac03903e16c0f40bc",
+      "author_name": "Terri Russell",
+      "readTime": 7,
+      "author_image": "https://images.pexels.com/photos/904117/pexels-photo-904117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cover_image": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "title": "Random text."
+    },
+    {
+      "id": "645f6c4ab56210cf40ac3deb",
+      "author_name": "Renee Rhodes",
+      "readTime": 5,
+      "author_image": "https://images.pexels.com/photos/2913125/pexels-photo-2913125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cover_image": "https://images.pexels.com/photos/3709430/pexels-photo-3709430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Contrary to Lorem Ipsum is not simply random text."
+    },
+    {
+      "id": "645f6c4ae538f876aff08c2e",
+      "author_name": "Kitty Sears",
+      "readTime": 6,
+      "author_image": "https://images.pexels.com/photos/3205149/pexels-photo-3205149.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "cover_image": "https://images.pexels.com/photos/821644/pexels-photo-821644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": " Lorem Ipsum is not simply random text."
+    }
+  ]

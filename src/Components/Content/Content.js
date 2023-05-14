@@ -12,21 +12,20 @@ const Content = () => {
     }, [])
 
     const [bookedBlogs, setBookedBlogs] = useState([]);
-    // let newlyBookedBlog = [];
+    
 
-    // console.log(bookedBlogs);
-    useEffect(() => {
-        console.log("Printing from use effect", bookedBlogs);
-    }, [bookedBlogs]);
-
-
-    const readHandler = (blog) => {
-        // console.log("yay you have clicked this blog: ",blog);
+    const bookmarkHandler = (blog) => {
+        
         const lastBooked = [...bookedBlogs, blog];
         setBookedBlogs(lastBooked);
     }
 
+    const [readTime, setReadTime] = useState(0);
 
+    const readHandler = (time) => {
+        let timeSum = readTime + time;
+        setReadTime(timeSum);
+    }
 
     return (
         <div>
@@ -35,14 +34,15 @@ const Content = () => {
                     {
                         blogs.map(blog => <Blog
                             blog={blog}
-                            readHandler={readHandler}
+                            bookmarkHandler={bookmarkHandler}
+                            readHandler= {readHandler}
                             key={blog.id}
                         ></Blog>)
                     }
                 </div>
                 <div className='secondary-flex'>
                     <div className='read'>
-                        Spent time on read: 177 min
+                        Spent time on read: {readTime} min
                     </div>
                     <div className='bookmarked'>
                         <div className='booked-number'>

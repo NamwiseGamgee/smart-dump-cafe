@@ -1,10 +1,14 @@
 import React from 'react';
-import './Blog.css'
+import './Blog.css';
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faBookReader } from '@fortawesome/free-solid-svg-icons'
+
 
 const Blog = (props) => {
     const { author_name, author_image, cover_image, title, readTime } = props.blog;
+    const bookmarkHandler = props.bookmarkHandler;
     const readHandler = props.readHandler;
-    // console.log('printing from blog.js ', blog);
     return (
         <div className='blog'>
             <div>
@@ -22,16 +26,18 @@ const Blog = (props) => {
                         </div>
                     </div>
                     <div>
-                        <p><small>{readTime} min read</small></p>
-                    </div>
-                </div>
-                <div>
-                    <h2>{title}</h2>
-                    <button onClick={ () => readHandler(props.blog)} className='read-btn'>Mark as read</button>
-                    <hr className='blog-hr' />
+                        <p><small>{readTime} min read
+                                <button onClick={ () => readHandler(readTime)} className='read-icon'><FontAwesomeIcon icon={faBookReader} /></button>
+                        </small></p>
                 </div>
             </div>
+            <div>
+                <h2>{title}</h2>
+                <button onClick={() => bookmarkHandler(props.blog)} className='read-btn'>Bookmark</button>
+                <hr className='blog-hr' />
+            </div>
         </div>
+        </div >
 
     );
 };

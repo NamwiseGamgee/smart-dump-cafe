@@ -3,6 +3,7 @@ import './Blog.css'
 
 const Blog = (props) => {
     const { author_name, author_image, cover_image, title, readTime } = props.blog;
+    const readHandler = props.readHandler;
     // console.log('printing from blog.js ', blog);
     return (
         <div className='blog'>
@@ -16,7 +17,7 @@ const Blog = (props) => {
                             <img className='author_img' src={author_image} alt="" />
                         </div>
                         <div>
-                            <p>{author_name}</p>
+                            <p className='name'>{author_name}</p>
                             <p><small>22/02/2023</small></p>
                         </div>
                     </div>
@@ -26,7 +27,7 @@ const Blog = (props) => {
                 </div>
                 <div>
                     <h2>{title}</h2>
-                    <button className='read-btn'>Mark as read</button>
+                    <button onClick={ () => readHandler(props.blog)} className='read-btn'>Mark as read</button>
                     <hr className='blog-hr' />
                 </div>
             </div>

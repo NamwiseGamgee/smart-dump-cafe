@@ -4,28 +4,35 @@
     grid-gap: 24px;
     grid-template-columns: 3fr 2fr;
 }
-.secondary-grid{
-    display: grid;
-    grid-gap: 24px;
-    grid-template-rows: 1fr 3fr;
+.secondary-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     /* border-radius: 8px; */
 }
 .blog-container{
     padding: 10px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     border-radius: 8px;
 }
 .read{
+    height: fit-content;
     padding: 10px;
-    border: 1px solid salmon;
+    text-align: center;
+    /* border: 1px solid salmon; */
     border-radius: 8px;
     background-color: rgba(96, 71, 236, 0.1);
     color: #6047EC;
     font-weight: 700;
 }
 .bookmarked{
-    padding: 10px;
-    border: 1px solid salmon;
+    height: fit-content;
+    padding: 30px;
+    background-color: rgba(17, 17, 17, 0.05);
+    /* border: 1px solid salmon; */
     border-radius: 8px;
     font-weight: 700;
+}
+.booked-number{
+    margin-bottom: 20px;
 }
